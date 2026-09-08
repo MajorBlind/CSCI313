@@ -42,7 +42,7 @@ class AlanP_Project0A_Main{
         }
 
         int numOfPeople = inFile.nextInt();
-        System.out.println("***There are " + numOfPeople + " people.***");
+        System.out.println("***There are " + numOfPeople + " people.");
         Person people[] = new Person[numOfPeople];
 
         int index = 0;
@@ -54,8 +54,10 @@ class AlanP_Project0A_Main{
             index++;
         } //End while
 
-        for(int index = 0; index < numOfPeople; index++){
-            people[index].printPerson(outFile);
+        outFile.println("***There are " + numOfPeople + " people.");
+        for(int i = 0; i < numOfPeople; i++){
+            outFile.print(i+1 + ". ");
+            people[i].printPerson(outFile);
         } //End for
 
         inFile.close();
