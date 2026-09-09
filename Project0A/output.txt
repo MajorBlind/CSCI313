@@ -1,8 +1,0 @@
-***There are 7 people.
-1. Sean is 24 years old.
-2. Pamela is 29 years old.
-3. Mark is 22 years old.
-4. Danial is 17 years old.
-5. Luke is 18 years old.
-6. Eric is 24 years old.
-7. Jessica is 23 years old.
