@@ -12,9 +12,22 @@ public class sort{
         this.count = count;
         this.dataAry = dataAry;
     }
+
     //int countData - read/return count of data in inFile
+    public int countData(Scanner inFile, PrintWriter logFile){
+
+        logFile.println("Entering countData.");
+        int count = 0;
+        while(inFile.hasNext()){
+            String data = inFile.next();
+            count++;
+        }
+        logFile.println("Leaving countData - Data Count: " + count);
+        return count;
+    }
 
     //loadData - Read data from inFile and store in dataAry
+    public void loadData(){}
 
     //print dataAry(dataAry, fileOut) - output each data in dataAry to fileOut, 0 -> -1
     //one data per text line
