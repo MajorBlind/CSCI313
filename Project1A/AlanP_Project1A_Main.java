@@ -8,7 +8,7 @@ public class sort{
     private String[] dataAry;
 
     //Constructor
-    public sort(int count, String[] dataAry){
+    sort(int count, String[] dataAry){
         this.count = count;
         this.dataAry = dataAry;
     }
