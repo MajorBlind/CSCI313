@@ -15,8 +15,7 @@ public class sort{
 
     //int countData - read/return count of data in inFile
     public int countData(Scanner inFile, PrintWriter logFile){
-
-        logFile.println("Entering countData.");
+        logFile.println("Entering countData()");
         int count = 0;
         while(inFile.hasNext()){
             String data = inFile.next();
@@ -27,7 +26,16 @@ public class sort{
     }
 
     //loadData - Read data from inFile and store in dataAry
-    public void loadData(){}
+    public void loadData(Scanner inFile, String[] dataAry, int count, PrintWriter logFile){
+        logFile.println("Entering loadData()");
+        int index = 0;
+        while(inFile.hasNext() && index < count){
+            String data = inFile.next();
+            dataAry[index] = data;
+            index++;
+        }
+        logFile.println("Leaving loadData()");
+    }
 
     //print dataAry(dataAry, fileOut) - output each data in dataAry to fileOut, 0 -> -1
     //one data per text line
