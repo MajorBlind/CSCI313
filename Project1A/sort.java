@@ -39,12 +39,20 @@ public class sort{
 
     //print dataAry(dataAry, fileOut) - output each data in dataAry to fileOut, 0 -> -1
     //one data per text line
+    public void printDataAry(String[] dataAry, PrintWriter fileOut, PrintWriter logFile){
+        logFile.println("Entering printDataAry()");
+        fileOut.println("**The content of Array**");
+        fileOut.println("Index\tData\n==========");
+        for(int i = 0; i < dataAry.length; i++){
+            fileOut.println(i + "\t" + dataAry[i]);
+        }
+    }
 }
 
 public class AlanP_Project1A_Main{
     public static void main(String[] args)throws IOException{
         //Check args amount is correct
-        if(args.length != 2){
+        if(args.length != 3){
             System.out.println("Program needs 2 arguments.");
             System.exit(1);
         }
@@ -77,5 +85,8 @@ public class AlanP_Project1A_Main{
             System.out.println("logFile cannot be opened.");
             System.exit(1);
         }
+
+        int count = sort.countData(inFile, logFile);
+        sort sorter = new sort(count, inFile);
     }
 }
