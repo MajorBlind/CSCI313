@@ -1,0 +1,6 @@
+Entering countData()
+Leaving countData - Data Count: 22
+In main() count = 22
+Entering loadData()
+Leaving loadData()
+Entering printDataAry()

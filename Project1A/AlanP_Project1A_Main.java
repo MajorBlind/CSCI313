@@ -1,20 +1,18 @@
-package Project1A;
-
 import java.io.*;
 import java.util.*;
 
-public class sort{
+class Sort{
     private int count;
     private String[] dataAry;
 
     //Constructor
-    sort(int count, String[] dataAry){
+    Sort(int count, String[] dataAry){
         this.count = count;
         this.dataAry = dataAry;
     }
 
     //int countData - read/return count of data in inFile
-    public int countData(Scanner inFile, PrintWriter logFile){
+    public static int countData(Scanner inFile, PrintWriter logFile){
         logFile.println("Entering countData()");
         int count = 0;
         while(inFile.hasNext()){
@@ -26,7 +24,7 @@ public class sort{
     }
 
     //loadData - Read data from inFile and store in dataAry
-    public void loadData(Scanner inFile, String[] dataAry, int count, PrintWriter logFile){
+    public static void loadData(Scanner inFile, String[] dataAry, int count, PrintWriter logFile){
         logFile.println("Entering loadData()");
         int index = 0;
         while(inFile.hasNext() && index < count){
@@ -39,10 +37,8 @@ public class sort{
 
     //print dataAry(dataAry, fileOut) - output each data in dataAry to fileOut, 0 -> -1
     //one data per text line
-    public void printDataAry(String[] dataAry, PrintWriter fileOut, PrintWriter logFile){
+    public static void printDataAry(String[] dataAry, PrintWriter fileOut, PrintWriter logFile){
         logFile.println("Entering printDataAry()");
-        fileOut.println("**The content of Array**");
-        fileOut.println("Index\tData\n==========");
         for(int i = 0; i < dataAry.length; i++){
             fileOut.println(i + "\t" + dataAry[i]);
         }
@@ -86,7 +82,23 @@ public class AlanP_Project1A_Main{
             System.exit(1);
         }
 
-        int count = sort.countData(inFile, logFile);
-        sort sorter = new sort(count, inFile);
+        Sort sortObject = new Sort(0, null);
+        int count = sortObject.countData(inFile, logFile);
+        
+        logFile.println("In main() count = " + count);
+        String[] dataAry = new String[count];
+        inFile.close();
+
+        inFile = new Scanner(new FileReader(args[0]));
+
+        sortObject.loadData(inFile, dataAry, count, logFile);
+        outFile.println("**The content of Array**");
+        outFile.println("Index\tData");
+        outFile.println("==========");
+        sortObject.printDataAry(dataAry, outFile, logFile);
+
+        inFile.close();
+        outFile.close();
+        logFile.close();
     }
 }
