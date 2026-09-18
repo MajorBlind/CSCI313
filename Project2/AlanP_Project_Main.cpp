@@ -14,6 +14,19 @@ class Sort{
             this->count = count;
             this->dataAry = dataAry;
         }
+
+        int countData(ifstream inFile, ){}
+
+        void loadData(){}
+
+        void bubbleSort(){}
+
+        void selectionSort(){}
+
+        void printDataAry(string* dataAry, ofstream fileOut){
+            cout << "Index\tData" << endl;
+            cout << "=======================" << endl;
+        }
 }
 
 // Main
