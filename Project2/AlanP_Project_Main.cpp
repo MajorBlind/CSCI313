@@ -15,8 +15,17 @@ class Sort{
             this->dataAry = dataAry;
         }
 
-        int countData(ifstream inFile, ofstream& logFile){
+        int countData(ifstream& inFile, ofstream& logFile){
             logFile << "Entering countData()\n";
+            
+            int count = 0;
+            string word;
+            while(inFile >> word){
+                count++;
+            }
+
+            logFile << "Leaving countData() - Data count: " + count << endl;
+            return count;
         }
 
         void loadData(){}
