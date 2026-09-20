@@ -28,16 +28,28 @@ class Sort{
             return count;
         }
 
-        void loadData(){}
+        void loadData(){
+            // Implement loadData
+        }
 
-        void bubbleSort(){}
+        void bubbleSort(){
+            // Implement bubble sort
+        }
 
-        void selectionSort(){}
+        void selectionSort(){
+            // Implement selectionSort
+        }
 
-        void printDataAry(string* dataAry, ofstream fileOut){
+        void printDataAry(string* dataAry, ofstream& fileOut, ofstream& logFile){
+            logFile << "Entering printDataAry()" << endl;
             cout << "Index\tData" << endl;
             cout << "=======================" << endl;
+
+            for(int i = 0; i < count; i++){
+                cout << i << "\t" << dataAry[i] << endl;
+                fileOut << i << "\t" + dataAry[i] << endl;
+            }
         }
-}
+};
 
 // Main
