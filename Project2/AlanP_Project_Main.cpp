@@ -28,8 +28,17 @@ class Sort{
             return count;
         }
 
-        void loadData(){
-            // Implement loadData
+        void loadData(ifstream& inFile, string* dataAry, int count, ofstream& logFile){
+            logFile << "Entering loadData()" << endl;
+
+            int index = 0;
+            string word;
+            while(index < count && inFile >> word){
+                dataAry[index] = word;
+                index++;
+            }
+
+            logFile << "Leaving loadData()" << endl;
         }
 
         void bubbleSort(){
