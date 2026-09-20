@@ -1,0 +1,21 @@
+Entering countData()
+Leaving countData() - Data count: 9
+In main() count = 9
+Entering loadData()
+Leaving loadData()
+Entering printDataAry()
+Entering bubbleSort()
+**Content of Array after one iteration of bubble sort. Last = 
+Entering printDataAry()
+**Content of Array after one iteration of bubble sort. Last = 
+Entering printDataAry()
+**Content of Array after one iteration of bubble sort. Last = 
+Entering printDataAry()
+**Content of Array after one iteration of bubble sort. Last = 
+Entering printDataAry()
+**Content of Array after one iteration of bubble sort. Last = 
+Entering printDataAry()
+**Content of Array after one iteration of bubble sort. Last = 
+Entering printDataAry()
+Leaving bubbleSort()
+Entering printDataAry()
