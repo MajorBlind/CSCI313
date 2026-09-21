@@ -5,17 +5,17 @@ Entering loadData()
 Leaving loadData()
 Entering printDataAry()
 Entering bubbleSort()
-**Content of Array after one iteration of bubble sort. Last = 
+**Content of Array after one iteration of bubble sort. Last = 8
 Entering printDataAry()
-**Content of Array after one iteration of bubble sort. Last = 
+**Content of Array after one iteration of bubble sort. Last = 7
 Entering printDataAry()
-**Content of Array after one iteration of bubble sort. Last = 
+**Content of Array after one iteration of bubble sort. Last = 6
 Entering printDataAry()
-**Content of Array after one iteration of bubble sort. Last = 
+**Content of Array after one iteration of bubble sort. Last = 5
 Entering printDataAry()
-**Content of Array after one iteration of bubble sort. Last = 
+**Content of Array after one iteration of bubble sort. Last = 4
 Entering printDataAry()
-**Content of Array after one iteration of bubble sort. Last = 
+**Content of Array after one iteration of bubble sort. Last = 3
 Entering printDataAry()
 Leaving bubbleSort()
 Entering printDataAry()

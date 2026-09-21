@@ -60,8 +60,8 @@ class Sort{
                     }
                     i++;
                 }
-                logFile << "**Content of Array after one iteration of bubble sort. Last = \n";
-                printDataAry(dataAry, outFile, logFile);
+                logFile << "**Content of Array after one iteration of bubble sort. Last = " << last << endl;
+                printDataAry(dataAry, count, outFile, logFile);
                 last = last - 1;
             }
 
@@ -105,7 +105,7 @@ class Sort{
                 logFile << "Content of Array after " << i << "-th iteration of selection sort\n";
                 
                 // Step 8
-                printDataAry(dataAry, outFile, logFile);
+                printDataAry(dataAry, count, outFile, logFile);
 
                 // Step 9
                 i++;
@@ -115,13 +115,13 @@ class Sort{
             logFile << "Leaving selectionSort()" << endl;
         }
 
-        static void printDataAry(string* dataAry, ofstream& fileOut, ofstream& logFile){
+        static void printDataAry(string* dataAry, int count, ofstream& fileOut, ofstream& logFile){
             logFile << "Entering printDataAry()" << endl;
             cout << "Index\tData" << endl;
             cout << "=======================" << endl;
 
             for(int i = 0; i < count; i++){
-                cout << i << "\t" << dataAry[i] << endl;
+                cout << i << '\t' << dataAry[i] << endl;
                 fileOut << i << '\t' << dataAry[i] << endl;
             }
         }
@@ -161,7 +161,7 @@ int main(int argc, char** argv){
     Sort::loadData(inFile, dataAry, count, logFile);
 
     outFile << "**Printing data before sorting**\n";
-    Sort::printDataAry(dataAry, outFile, logFile);
+    Sort::printDataAry(dataAry, count, outFile, logFile);
 
     cout << "You have a choice of Bubble-sort or Selection-sort in program.\n";
     cout << "Enter 1 for bubble-sort, enter 2 for selection-sort.\n";
@@ -172,12 +172,12 @@ int main(int argc, char** argv){
         outFile << "**You select bubble-sort.**\n";
         Sort::bubbleSort(dataAry, count, outFile, logFile);
         outFile << "**Result of bubble-sort on data**\n";
-        Sort::printDataAry(dataAry, outFile, logFile);
-    }if(whichSort == 2){
+        Sort::printDataAry(dataAry, count, outFile, logFile);
+    }else if(whichSort == 2){
         outFile << "**You select selection-sort.**\n";
         Sort::selectionSort(dataAry, count, outFile, logFile);
         outFile << "**Result of selection-sort on data**\n";
-        Sort::printDataAry(dataAry, outFile, logFile);
+        Sort::printDataAry(dataAry, count, outFile, logFile);
     }else{
         cout << "Sorry! You must enter either 1 for bubble-sort or 2 for selection-sort!\n";
     }
