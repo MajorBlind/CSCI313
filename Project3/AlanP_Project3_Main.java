@@ -14,7 +14,7 @@ class listNode{
         if(node.next != null){
             outFile.print("(" + node.data + ", " + node.next.data + ") -> ");
         }else{
-            outFile.println("(" + node.data + ", NULL) -> ");
+            outFile.print("(" + node.data + ", NULL) -> ");
         }
     }
 }
@@ -64,10 +64,108 @@ class LLStack{
             walker.printNode(walker, outFile3);
             walker = walker.next;
         }
-        outFile3.println(" NULL");
+        outFile3.println("NULL");
+    }
+}
+
+class LLQueue{
+    listNode head;
+    listNode tail;
+
+    LLQueue(){
+        head = new listNode(-999);
+        tail = head;
+    }
+
+    void insertQ(listNode newNode){
+        tail.next = newNode;
+        tail = newNode;
+    }
+
+    boolean isEmpty(){
+        return head.next == null;
+    }
+
+    void buildQueue(LLStack S, PrintWriter outFile2, PrintWriter logFile){
+        logFile.println("***Entering buildQueue()!");
+        while(!S.isEmpty()){
+            listNode newNode = S.pop(outFile2);
+            logFile.println("***After pop stack, newNode's data is: " + newNode.data);
+            outFile2.println("***After pop stack, newNode's data is: " + newNode.data);
+            insertQ(newNode);
+        }
+        logFile.println("***Leaving buildQueue()!");
+    }
+
+    void printQueue(PrintWriter outFile2){
+        listNode walker = head;
+        outFile2.print("Head -> ");
+        while(walker != null){
+            walker.printNode(walker, outFile2);
+            walker = walker.next;
+        }
+        outFile2.println("Tail");
     }
 }
 
 public class AlanP_Project3_Main {
-    
+    public static void main(String[] args)throws IOException{
+        if(args.length != 4){
+            System.out.println("Program needs 4 arguments.");
+            System.exit(1);
+        }
+
+        Scanner inFile = null;
+        PrintWriter outFile1 = null;
+        PrintWriter outFile2 = null;
+        PrintWriter logFile = null;
+
+        try{
+            inFile = new Scanner(new FileReader(args[0]));
+            System.out.println("inFile opened successfully.");
+        }catch(IOException e){
+            System.out.println("inFile cannot be opened.");
+            System.exit(1);
+        }
+        try{
+            outFile1 = new PrintWriter(args[1]);
+            System.out.println("outFile1 opened successfully.");
+        }catch(IOException e){
+            System.out.println("outFile1 cannot be opened.");
+            System.exit(1);
+        }
+        try{
+            outFile2 = new PrintWriter(args[2]);
+            System.out.println("outFile2 opened successfully.");
+        }catch(IOException e){
+            System.out.println("outFile2 cannot be opened.");
+            System.exit(1);
+        }
+        try{
+            logFile = new PrintWriter(args[3]);
+            System.out.println("logFile opened successfully.");
+        }catch(IOException e){
+            System.out.println("logFile cannot be opened.");
+            System.exit(1);
+        }
+
+        LLStack S = new LLStack();
+
+        logFile.println("***Calling buildStack()");
+        S.buildStack(inFile, logFile);
+        outFile1.println("Printing the stack***");
+        S.printStack(outFile1);
+
+        LLQueue Q = new LLQueue();
+
+        logFile.println("***Calling buildQueue()");
+        Q.buildQueue(S, outFile2, logFile);
+        outFile2.println("***Printing the Queue");
+        Q.printQueue(outFile2);
+
+        inFile.close();
+        outFile1.close();
+        outFile2.close();
+        logFile.close();
+    }
 }

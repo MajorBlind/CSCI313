@@ -1,0 +1,76 @@
+***Calling buildStack()
+***Entering buildStack()***
+***Input data: 88***
+***Input data: 192***
+***Input data: 40***
+***Input data: 555***
+***Input data: 58***
+***Input data: 327***
+***Input data: 955***
+***Input data: 349***
+***Input data: 325***
+***Input data: 361***
+***Input data: 637***
+***Input data: 307***
+***Input data: 123***
+***Input data: 222***
+***Input data: 613***
+***Input data: 777***
+***Input data: 637***
+***Input data: 255***
+***Input data: 838***
+***Input data: 91***
+***Input data: 32***
+***Input data: 333***
+***Input data: 88***
+***Input data: 99***
+***Input data: 79***
+***Input data: 444***
+***Input data: 702***
+***Input data: 95***
+***Input data: 588***
+***Input data: 12***
+***Input data: 16***
+***Input data: 66***
+***Input data: 49***
+***Input data: 69***
+***Input data: 52***
+***Leaving buildStack()***
+***Calling buildQueue()
+***Entering buildQueue()!
+***After pop stack, newNode's data is: 52
+***After pop stack, newNode's data is: 69
+***After pop stack, newNode's data is: 49
+***After pop stack, newNode's data is: 66
+***After pop stack, newNode's data is: 16
+***After pop stack, newNode's data is: 12
+***After pop stack, newNode's data is: 588
+***After pop stack, newNode's data is: 95
+***After pop stack, newNode's data is: 702
+***After pop stack, newNode's data is: 444
+***After pop stack, newNode's data is: 79
+***After pop stack, newNode's data is: 99
+***After pop stack, newNode's data is: 88
+***After pop stack, newNode's data is: 333
+***After pop stack, newNode's data is: 32
+***After pop stack, newNode's data is: 91
+***After pop stack, newNode's data is: 838
+***After pop stack, newNode's data is: 255
+***After pop stack, newNode's data is: 637
+***After pop stack, newNode's data is: 777
+***After pop stack, newNode's data is: 613
+***After pop stack, newNode's data is: 222
+***After pop stack, newNode's data is: 123
+***After pop stack, newNode's data is: 307
+***After pop stack, newNode's data is: 637
+***After pop stack, newNode's data is: 361
+***After pop stack, newNode's data is: 325
+***After pop stack, newNode's data is: 349
+***After pop stack, newNode's data is: 955
+***After pop stack, newNode's data is: 327
+***After pop stack, newNode's data is: 58
+***After pop stack, newNode's data is: 555
+***After pop stack, newNode's data is: 40
+***After pop stack, newNode's data is: 192
+***After pop stack, newNode's data is: 88
+***Leaving buildQueue()!

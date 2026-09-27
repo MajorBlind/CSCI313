@@ -1,0 +1,22 @@
+***Calling buildStack()
+***Entering buildStack()***
+***Input data: 951***
+***Input data: 588***
+***Input data: 122***
+***Input data: 16***
+***Input data: 667***
+***Input data: 95***
+***Input data: 69***
+***Input data: 52***
+***Leaving buildStack()***
+***Calling buildQueue()
+***Entering buildQueue()!
+***After pop stack, newNode's data is: 52
+***After pop stack, newNode's data is: 69
+***After pop stack, newNode's data is: 95
+***After pop stack, newNode's data is: 667
+***After pop stack, newNode's data is: 16
+***After pop stack, newNode's data is: 122
+***After pop stack, newNode's data is: 588
+***After pop stack, newNode's data is: 951
+***Leaving buildQueue()!
