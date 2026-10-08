@@ -29,7 +29,7 @@ class counting{
             }
 
             logFile << "***In computeCharCounts, print CharCountArr***\n";
-            printCountArr();
+            printCountArr(charCountArr, logFile);
 
             logFile << "***Leaving computeCharCounts method\n";
         }
