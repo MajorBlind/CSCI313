@@ -40,11 +40,11 @@ class counting{
                 if(charCountArr[i] == 0 || i == 13 || i == 23){
                     continue;
                 }else if(i == 10){ //Print "newline" instead of converting to int
-                    oFile << i << "\t\\n\t" << charCountArr[i] << endl;
+                    oFile << i << "\t\t\\n\t\t" << charCountArr[i] << endl;
                 }else if(i == 32){ //Print "blank" instead of converting to int
-                    oFile << i << "\tblank\t" << charCountArr[i] << endl;
+                    oFile << i << "\t\tblank\t" << charCountArr[i] << endl;
                 }else{
-                    oFile << i << "\t" << char(i) << "\t" << charCountArr[i] << endl;
+                    oFile << i << "\t\t" << char(i) << "\t\t" << charCountArr[i] << endl;
                 }
             }
         }
