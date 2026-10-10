@@ -4,10 +4,9 @@
 using namespace std;
 
 class counting{
-    private:    
-        int charCountArr[256];
-    
     public:
+        int charCountArr[256];
+
         counting(){
             initZero();
         }
@@ -50,3 +49,37 @@ class counting{
             }
         }
 };
+
+int main(int argc, char** argv){
+    if(argc != 4){
+        cout << "Program needs 3 arguments\n";
+        exit(1);
+    }
+
+    ifstream inFile(argv[1]);
+    if(!inFile){
+        cout << "inFile cannot be opened.\n";
+        exit(1);
+    }
+    ofstream outFile(argv[2]);
+    if(!outFile){
+        cout << "outFile cannot be opened.\n";
+        exit(1);
+    }
+    ofstream logFile(argv[3]);
+    if(!logFile){
+        cout << "logFile cannot be opened.\n";
+        exit(1);
+    }
+
+    counting count;
+    
+    count.computeCharCounts(inFile, count.charCountArr, logFile);
+    
+    outFile << "***In main printing charCountArr\n";
+    count.printCountArr(count.charCountArr, outFile);
+
+    inFile.close();
+    outFile.close();
+    logFile.close();
+}
