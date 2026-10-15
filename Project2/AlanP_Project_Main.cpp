@@ -11,7 +11,7 @@ class Sort{
     
     public:
         Sort(int count, string* dataAry){
-            this->count = count;
+            this->count = count;    
             this->dataAry = dataAry;
         }
 
