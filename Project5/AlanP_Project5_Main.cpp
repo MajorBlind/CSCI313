@@ -69,3 +69,48 @@ class Sort{
             }
         };
 };
+
+int main(int argc, char** argv){
+    if(argc != 4){
+        cout << "Program needs 4 arguments.\n";
+        exit(1);
+    }
+
+    ifstream inFile(argv[1]);
+    if(!inFile){
+        cout << "inFile cannot be opened.\n";
+        exit(1);
+    }
+    ofstream outFile(argv[2]);
+    if(!outFile){
+        cout << "outFile cannot be opened.\n";
+        exit(1);
+    }
+    ofstream logFile(argv[3]);
+    if(!logFile){
+        cout << "logFile cannot be opened.\n";
+        exit(1);
+    }
+
+    Sort sorter;
+    sorter.loadData(inFile, sorter.dataArr, logFile);
+
+    outFile << "** The content of dataArr before sorting **\n";
+    outFile << "Index\tData\n";
+    outFile << "=======================\n";
+    sorter.printDataArr(sorter.dataArr, outFile);
+
+    int count = sorter.dataArr.size();
+    sorter.selectionSort(sorter.dataArr, count, logFile);
+
+    outFile << "** The content of array after sorting **\n";
+    outFile << "Index\tData\n";
+    outFile << "======================\n";
+    sorter.printDataArr(sorter.dataArr, outFile);
+
+    inFile.close();
+    outFile.close();
+    logFile.close();
+
+    return 0;
+}
