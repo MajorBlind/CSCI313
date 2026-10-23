@@ -22,7 +22,19 @@ class binTree{
         treeNode* root;
         vector<int> dataArr;
 
-        void loadData(ifstream& inFile, vector<int>& dataArr, ofstream& logFile){}
+        void loadData(ifstream& inFile, vector<int>& dataArr, ofstream& logFile){
+            logFile << "*** Entering loadData() ***\n";
+            int data;
+
+            while(inFile >> data){
+                dataArr.push_back(data);
+
+                logFile << "** The content of dataArr after push anohter data **\n";
+                logFile << "Index\tData\n";
+                logFile << "=================================\n";
+                printArr(dataArr, logFile);
+            }
+        }
 
         bool checkData(vector<int>& dataArr){}
 
