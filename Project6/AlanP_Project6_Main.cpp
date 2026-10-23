@@ -9,6 +9,12 @@ class treeNode{
         int data;
         treeNode* left;
         treeNode* right;
+
+        treeNode(int data, treeNode* left, treeNode* right){
+            this->data = data;
+            this->left = left;
+            this->right = right;
+        }
 };
 
 class binTree{
