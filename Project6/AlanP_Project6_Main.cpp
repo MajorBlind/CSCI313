@@ -24,11 +24,11 @@ class binTree{
 
         treeNode* buildBinTree(vector<int>& inArr, int leftIndex, int rightIndex, ofstream& logFile){}
 
-        void preOrder(treeNode node, ofstream& outFile){}
+        void preOrder(treeNode* node, ofstream& outFile){}
 
-        void inOrder(treeNode node, ofstream& outFile){}
+        void inOrder(treeNode* node, ofstream& outFile){}
 
-        void postOrder(treeNode node, ofstream& outFile){}
+        void postOrder(treeNode* node, ofstream& outFile){}
 };
 
 int main(int argc, char** argv){
