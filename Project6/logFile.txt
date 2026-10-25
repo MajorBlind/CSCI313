@@ -1,0 +1,1471 @@
+*** Entering loadData() ***
+** The content of dataArr after push anohter data **
+Index	Data
+=================================
+0	8
+** The content of dataArr after push anohter data **
+Index	Data
+=================================
+0	8
+1	10
+** The content of dataArr after push anohter data **
+Index	Data
+=================================
+0	8
+1	10
+2	12
+** The content of dataArr after push anohter data **
+Index	Data
+=================================
+0	8
+1	10
+2	12
+3	14
+** The content of dataArr after push anohter data **
+Index	Data
+=================================
+0	8
+1	10
+2	12
+3	14
+4	16
+** The content of dataArr after push anohter data **
+Index	Data
+=================================
+0	8
+1	10
+2	12
+3	14
+4	16
+5	18
+** The content of dataArr after push anohter data **
+Index	Data
+=================================
+0	8
+1	10
+2	12
+3	14
+4	16
+5	18
+6	20
+** The content of dataArr after push anohter data **
+Index	Data
+=================================
+0	8
+1	10
+2	12
+3	14
+4	16
+5	18
+6	20
+7	22
+** The content of dataArr after push anohter data **
+Index	Data
+=================================
+0	8
+1	10
+2	12
+3	14
+4	16
+5	18
+6	20
+7	22
+8	24
+** The content of dataArr after push anohter data **
+Index	Data
+=================================
+0	8
+1	10
+2	12
+3	14
+4	16
+5	18
+6	20
+7	22
+8	24
+9	26
+** The content of dataArr after push anohter data **
+Index	Data
+=================================
+0	8
+1	10
+2	12
+3	14
+4	16
+5	18
+6	20
+7	22
+8	24
+9	26
+10	28
+** The content of dataArr after push anohter data **
+Index	Data
+=================================
+0	8
+1	10
+2	12
+3	14
+4	16
+5	18
+6	20
+7	22
+8	24
+9	26
+10	28
+11	30
+** The content of dataArr after push anohter data **
+Index	Data
+=================================
+0	8
+1	10
+2	12
+3	14
+4	16
+5	18
+6	20
+7	22
+8	24
+9	26
+10	28
+11	30
+12	32
+** The content of dataArr after push anohter data **
+Index	Data
+=================================
+0	8
+1	10
+2	12
+3	14
+4	16
+5	18
+6	20
+7	22
+8	24
+9	26
+10	28
+11	30
+12	32
+13	34
+** The content of dataArr after push anohter data **
+Index	Data
+=================================
+0	8
+1	10
+2	12
+3	14
+4	16
+5	18
+6	20
+7	22
+8	24
+9	26
+10	28
+11	30
+12	32
+13	34
+14	36
+** The content of dataArr after push anohter data **
+Index	Data
+=================================
+0	8
+1	10
+2	12
+3	14
+4	16
+5	18
+6	20
+7	22
+8	24
+9	26
+10	28
+11	30
+12	32
+13	34
+14	36
+15	38
+** The content of dataArr after push anohter data **
+Index	Data
+=================================
+0	8
+1	10
+2	12
+3	14
+4	16
+5	18
+6	20
+7	22
+8	24
+9	26
+10	28
+11	30
+12	32
+13	34
+14	36
+15	38
+16	40
+** The content of dataArr after push anohter data **
+Index	Data
+=================================
+0	8
+1	10
+2	12
+3	14
+4	16
+5	18
+6	20
+7	22
+8	24
+9	26
+10	28
+11	30
+12	32
+13	34
+14	36
+15	38
+16	40
+17	42
+** The content of dataArr after push anohter data **
+Index	Data
+=================================
+0	8
+1	10
+2	12
+3	14
+4	16
+5	18
+6	20
+7	22
+8	24
+9	26
+10	28
+11	30
+12	32
+13	34
+14	36
+15	38
+16	40
+17	42
+18	44
+** The content of dataArr after push anohter data **
+Index	Data
+=================================
+0	8
+1	10
+2	12
+3	14
+4	16
+5	18
+6	20
+7	22
+8	24
+9	26
+10	28
+11	30
+12	32
+13	34
+14	36
+15	38
+16	40
+17	42
+18	44
+19	46
+** The content of dataArr after push anohter data **
+Index	Data
+=================================
+0	8
+1	10
+2	12
+3	14
+4	16
+5	18
+6	20
+7	22
+8	24
+9	26
+10	28
+11	30
+12	32
+13	34
+14	36
+15	38
+16	40
+17	42
+18	44
+19	46
+20	48
+** The content of dataArr after push anohter data **
+Index	Data
+=================================
+0	8
+1	10
+2	12
+3	14
+4	16
+5	18
+6	20
+7	22
+8	24
+9	26
+10	28
+11	30
+12	32
+13	34
+14	36
+15	38
+16	40
+17	42
+18	44
+19	46
+20	48
+21	50
+** The content of dataArr after push anohter data **
+Index	Data
+=================================
+0	8
+1	10
+2	12
+3	14
+4	16
+5	18
+6	20
+7	22
+8	24
+9	26
+10	28
+11	30
+12	32
+13	34
+14	36
+15	38
+16	40
+17	42
+18	44
+19	46
+20	48
+21	50
+22	52
+** The content of dataArr after push anohter data **
+Index	Data
+=================================
+0	8
+1	10
+2	12
+3	14
+4	16
+5	18
+6	20
+7	22
+8	24
+9	26
+10	28
+11	30
+12	32
+13	34
+14	36
+15	38
+16	40
+17	42
+18	44
+19	46
+20	48
+21	50
+22	52
+23	54
+** The content of dataArr after push anohter data **
+Index	Data
+=================================
+0	8
+1	10
+2	12
+3	14
+4	16
+5	18
+6	20
+7	22
+8	24
+9	26
+10	28
+11	30
+12	32
+13	34
+14	36
+15	38
+16	40
+17	42
+18	44
+19	46
+20	48
+21	50
+22	52
+23	54
+24	56
+** The content of dataArr after push anohter data **
+Index	Data
+=================================
+0	8
+1	10
+2	12
+3	14
+4	16
+5	18
+6	20
+7	22
+8	24
+9	26
+10	28
+11	30
+12	32
+13	34
+14	36
+15	38
+16	40
+17	42
+18	44
+19	46
+20	48
+21	50
+22	52
+23	54
+24	56
+25	58
+** The content of dataArr after push anohter data **
+Index	Data
+=================================
+0	8
+1	10
+2	12
+3	14
+4	16
+5	18
+6	20
+7	22
+8	24
+9	26
+10	28
+11	30
+12	32
+13	34
+14	36
+15	38
+16	40
+17	42
+18	44
+19	46
+20	48
+21	50
+22	52
+23	54
+24	56
+25	58
+26	60
+** The content of dataArr after push anohter data **
+Index	Data
+=================================
+0	8
+1	10
+2	12
+3	14
+4	16
+5	18
+6	20
+7	22
+8	24
+9	26
+10	28
+11	30
+12	32
+13	34
+14	36
+15	38
+16	40
+17	42
+18	44
+19	46
+20	48
+21	50
+22	52
+23	54
+24	56
+25	58
+26	60
+27	63
+** The content of dataArr after push anohter data **
+Index	Data
+=================================
+0	8
+1	10
+2	12
+3	14
+4	16
+5	18
+6	20
+7	22
+8	24
+9	26
+10	28
+11	30
+12	32
+13	34
+14	36
+15	38
+16	40
+17	42
+18	44
+19	46
+20	48
+21	50
+22	52
+23	54
+24	56
+25	58
+26	60
+27	63
+28	65
+** The content of dataArr after push anohter data **
+Index	Data
+=================================
+0	8
+1	10
+2	12
+3	14
+4	16
+5	18
+6	20
+7	22
+8	24
+9	26
+10	28
+11	30
+12	32
+13	34
+14	36
+15	38
+16	40
+17	42
+18	44
+19	46
+20	48
+21	50
+22	52
+23	54
+24	56
+25	58
+26	60
+27	63
+28	65
+29	67
+** The content of dataArr after push anohter data **
+Index	Data
+=================================
+0	8
+1	10
+2	12
+3	14
+4	16
+5	18
+6	20
+7	22
+8	24
+9	26
+10	28
+11	30
+12	32
+13	34
+14	36
+15	38
+16	40
+17	42
+18	44
+19	46
+20	48
+21	50
+22	52
+23	54
+24	56
+25	58
+26	60
+27	63
+28	65
+29	67
+30	69
+** The content of dataArr after push anohter data **
+Index	Data
+=================================
+0	8
+1	10
+2	12
+3	14
+4	16
+5	18
+6	20
+7	22
+8	24
+9	26
+10	28
+11	30
+12	32
+13	34
+14	36
+15	38
+16	40
+17	42
+18	44
+19	46
+20	48
+21	50
+22	52
+23	54
+24	56
+25	58
+26	60
+27	63
+28	65
+29	67
+30	69
+31	70
+** The content of dataArr after push anohter data **
+Index	Data
+=================================
+0	8
+1	10
+2	12
+3	14
+4	16
+5	18
+6	20
+7	22
+8	24
+9	26
+10	28
+11	30
+12	32
+13	34
+14	36
+15	38
+16	40
+17	42
+18	44
+19	46
+20	48
+21	50
+22	52
+23	54
+24	56
+25	58
+26	60
+27	63
+28	65
+29	67
+30	69
+31	70
+32	72
+** The content of dataArr after push anohter data **
+Index	Data
+=================================
+0	8
+1	10
+2	12
+3	14
+4	16
+5	18
+6	20
+7	22
+8	24
+9	26
+10	28
+11	30
+12	32
+13	34
+14	36
+15	38
+16	40
+17	42
+18	44
+19	46
+20	48
+21	50
+22	52
+23	54
+24	56
+25	58
+26	60
+27	63
+28	65
+29	67
+30	69
+31	70
+32	72
+33	74
+** The content of dataArr after push anohter data **
+Index	Data
+=================================
+0	8
+1	10
+2	12
+3	14
+4	16
+5	18
+6	20
+7	22
+8	24
+9	26
+10	28
+11	30
+12	32
+13	34
+14	36
+15	38
+16	40
+17	42
+18	44
+19	46
+20	48
+21	50
+22	52
+23	54
+24	56
+25	58
+26	60
+27	63
+28	65
+29	67
+30	69
+31	70
+32	72
+33	74
+34	76
+** The content of dataArr after push anohter data **
+Index	Data
+=================================
+0	8
+1	10
+2	12
+3	14
+4	16
+5	18
+6	20
+7	22
+8	24
+9	26
+10	28
+11	30
+12	32
+13	34
+14	36
+15	38
+16	40
+17	42
+18	44
+19	46
+20	48
+21	50
+22	52
+23	54
+24	56
+25	58
+26	60
+27	63
+28	65
+29	67
+30	69
+31	70
+32	72
+33	74
+34	76
+35	78
+** The content of dataArr after push anohter data **
+Index	Data
+=================================
+0	8
+1	10
+2	12
+3	14
+4	16
+5	18
+6	20
+7	22
+8	24
+9	26
+10	28
+11	30
+12	32
+13	34
+14	36
+15	38
+16	40
+17	42
+18	44
+19	46
+20	48
+21	50
+22	52
+23	54
+24	56
+25	58
+26	60
+27	63
+28	65
+29	67
+30	69
+31	70
+32	72
+33	74
+34	76
+35	78
+36	80
+** The content of dataArr after push anohter data **
+Index	Data
+=================================
+0	8
+1	10
+2	12
+3	14
+4	16
+5	18
+6	20
+7	22
+8	24
+9	26
+10	28
+11	30
+12	32
+13	34
+14	36
+15	38
+16	40
+17	42
+18	44
+19	46
+20	48
+21	50
+22	52
+23	54
+24	56
+25	58
+26	60
+27	63
+28	65
+29	67
+30	69
+31	70
+32	72
+33	74
+34	76
+35	78
+36	80
+37	81
+** The content of dataArr after push anohter data **
+Index	Data
+=================================
+0	8
+1	10
+2	12
+3	14
+4	16
+5	18
+6	20
+7	22
+8	24
+9	26
+10	28
+11	30
+12	32
+13	34
+14	36
+15	38
+16	40
+17	42
+18	44
+19	46
+20	48
+21	50
+22	52
+23	54
+24	56
+25	58
+26	60
+27	63
+28	65
+29	67
+30	69
+31	70
+32	72
+33	74
+34	76
+35	78
+36	80
+37	81
+38	83
+** The content of dataArr after push anohter data **
+Index	Data
+=================================
+0	8
+1	10
+2	12
+3	14
+4	16
+5	18
+6	20
+7	22
+8	24
+9	26
+10	28
+11	30
+12	32
+13	34
+14	36
+15	38
+16	40
+17	42
+18	44
+19	46
+20	48
+21	50
+22	52
+23	54
+24	56
+25	58
+26	60
+27	63
+28	65
+29	67
+30	69
+31	70
+32	72
+33	74
+34	76
+35	78
+36	80
+37	81
+38	83
+39	85
+** The content of dataArr after push anohter data **
+Index	Data
+=================================
+0	8
+1	10
+2	12
+3	14
+4	16
+5	18
+6	20
+7	22
+8	24
+9	26
+10	28
+11	30
+12	32
+13	34
+14	36
+15	38
+16	40
+17	42
+18	44
+19	46
+20	48
+21	50
+22	52
+23	54
+24	56
+25	58
+26	60
+27	63
+28	65
+29	67
+30	69
+31	70
+32	72
+33	74
+34	76
+35	78
+36	80
+37	81
+38	83
+39	85
+40	87
+** The content of dataArr after push anohter data **
+Index	Data
+=================================
+0	8
+1	10
+2	12
+3	14
+4	16
+5	18
+6	20
+7	22
+8	24
+9	26
+10	28
+11	30
+12	32
+13	34
+14	36
+15	38
+16	40
+17	42
+18	44
+19	46
+20	48
+21	50
+22	52
+23	54
+24	56
+25	58
+26	60
+27	63
+28	65
+29	67
+30	69
+31	70
+32	72
+33	74
+34	76
+35	78
+36	80
+37	81
+38	83
+39	85
+40	87
+41	89
+** The content of dataArr after push anohter data **
+Index	Data
+=================================
+0	8
+1	10
+2	12
+3	14
+4	16
+5	18
+6	20
+7	22
+8	24
+9	26
+10	28
+11	30
+12	32
+13	34
+14	36
+15	38
+16	40
+17	42
+18	44
+19	46
+20	48
+21	50
+22	52
+23	54
+24	56
+25	58
+26	60
+27	63
+28	65
+29	67
+30	69
+31	70
+32	72
+33	74
+34	76
+35	78
+36	80
+37	81
+38	83
+39	85
+40	87
+41	89
+42	90
+** The content of dataArr after push anohter data **
+Index	Data
+=================================
+0	8
+1	10
+2	12
+3	14
+4	16
+5	18
+6	20
+7	22
+8	24
+9	26
+10	28
+11	30
+12	32
+13	34
+14	36
+15	38
+16	40
+17	42
+18	44
+19	46
+20	48
+21	50
+22	52
+23	54
+24	56
+25	58
+26	60
+27	63
+28	65
+29	67
+30	69
+31	70
+32	72
+33	74
+34	76
+35	78
+36	80
+37	81
+38	83
+39	85
+40	87
+41	89
+42	90
+43	91
+** The content of dataArr after push anohter data **
+Index	Data
+=================================
+0	8
+1	10
+2	12
+3	14
+4	16
+5	18
+6	20
+7	22
+8	24
+9	26
+10	28
+11	30
+12	32
+13	34
+14	36
+15	38
+16	40
+17	42
+18	44
+19	46
+20	48
+21	50
+22	52
+23	54
+24	56
+25	58
+26	60
+27	63
+28	65
+29	67
+30	69
+31	70
+32	72
+33	74
+34	76
+35	78
+36	80
+37	81
+38	83
+39	85
+40	87
+41	89
+42	90
+43	91
+44	92
+** The content of dataArr after push anohter data **
+Index	Data
+=================================
+0	8
+1	10
+2	12
+3	14
+4	16
+5	18
+6	20
+7	22
+8	24
+9	26
+10	28
+11	30
+12	32
+13	34
+14	36
+15	38
+16	40
+17	42
+18	44
+19	46
+20	48
+21	50
+22	52
+23	54
+24	56
+25	58
+26	60
+27	63
+28	65
+29	67
+30	69
+31	70
+32	72
+33	74
+34	76
+35	78
+36	80
+37	81
+38	83
+39	85
+40	87
+41	89
+42	90
+43	91
+44	92
+45	93
+** The content of dataArr after push anohter data **
+Index	Data
+=================================
+0	8
+1	10
+2	12
+3	14
+4	16
+5	18
+6	20
+7	22
+8	24
+9	26
+10	28
+11	30
+12	32
+13	34
+14	36
+15	38
+16	40
+17	42
+18	44
+19	46
+20	48
+21	50
+22	52
+23	54
+24	56
+25	58
+26	60
+27	63
+28	65
+29	67
+30	69
+31	70
+32	72
+33	74
+34	76
+35	78
+36	80
+37	81
+38	83
+39	85
+40	87
+41	89
+42	90
+43	91
+44	92
+45	93
+46	94
+** The content of dataArr after push anohter data **
+Index	Data
+=================================
+0	8
+1	10
+2	12
+3	14
+4	16
+5	18
+6	20
+7	22
+8	24
+9	26
+10	28
+11	30
+12	32
+13	34
+14	36
+15	38
+16	40
+17	42
+18	44
+19	46
+20	48
+21	50
+22	52
+23	54
+24	56
+25	58
+26	60
+27	63
+28	65
+29	67
+30	69
+31	70
+32	72
+33	74
+34	76
+35	78
+36	80
+37	81
+38	83
+39	85
+40	87
+41	89
+42	90
+43	91
+44	92
+45	93
+46	94
+47	95
+** The content of dataArr after push anohter data **
+Index	Data
+=================================
+0	8
+1	10
+2	12
+3	14
+4	16
+5	18
+6	20
+7	22
+8	24
+9	26
+10	28
+11	30
+12	32
+13	34
+14	36
+15	38
+16	40
+17	42
+18	44
+19	46
+20	48
+21	50
+22	52
+23	54
+24	56
+25	58
+26	60
+27	63
+28	65
+29	67
+30	69
+31	70
+32	72
+33	74
+34	76
+35	78
+36	80
+37	81
+38	83
+39	85
+40	87
+41	89
+42	90
+43	91
+44	92
+45	93
+46	94
+47	95
+48	100
+*** Entering buildBinTree; leftIndex = 0 rightIndex = 48midIndex = 24; size = 49
+*** Entering buildBinTree; leftIndex = 0 rightIndex = 23midIndex = 12; size = 24
+*** Entering buildBinTree; leftIndex = 0 rightIndex = 11midIndex = 6; size = 12
+*** Entering buildBinTree; leftIndex = 0 rightIndex = 5midIndex = 3; size = 6
+*** Entering buildBinTree; leftIndex = 0 rightIndex = 2midIndex = 1; size = 3
+*** Entering buildBinTree; leftIndex = 0 rightIndex = 0midIndex = 0; size = 1
+*** Leaving buildBinTree(); newNode's data is 8
+*** Entering buildBinTree; leftIndex = 2 rightIndex = 2midIndex = 2; size = 1
+*** Leaving buildBinTree(); newNode's data is 12
+*** Leaving buildBinTree(); newNode's data is -1
+*** Entering buildBinTree; leftIndex = 4 rightIndex = 5midIndex = 5; size = 2
+*** Entering buildBinTree; leftIndex = 4 rightIndex = 4midIndex = 4; size = 1
+*** Leaving buildBinTree(); newNode's data is 16
+*** Entering buildBinTree; leftIndex = 6 rightIndex = 5*** Leaving buildBinTree(); newNode's data is -1
+*** Leaving buildBinTree(); newNode's data is -1
+*** Entering buildBinTree; leftIndex = 7 rightIndex = 11midIndex = 9; size = 5
+*** Entering buildBinTree; leftIndex = 7 rightIndex = 8midIndex = 8; size = 2
+*** Entering buildBinTree; leftIndex = 7 rightIndex = 7midIndex = 7; size = 1
+*** Leaving buildBinTree(); newNode's data is 22
+*** Entering buildBinTree; leftIndex = 9 rightIndex = 8*** Leaving buildBinTree(); newNode's data is -1
+*** Entering buildBinTree; leftIndex = 10 rightIndex = 11midIndex = 11; size = 2
+*** Entering buildBinTree; leftIndex = 10 rightIndex = 10midIndex = 10; size = 1
+*** Leaving buildBinTree(); newNode's data is 28
+*** Entering buildBinTree; leftIndex = 12 rightIndex = 11*** Leaving buildBinTree(); newNode's data is -1
+*** Leaving buildBinTree(); newNode's data is -1
+*** Leaving buildBinTree(); newNode's data is -1
+*** Entering buildBinTree; leftIndex = 13 rightIndex = 23midIndex = 18; size = 11
+*** Entering buildBinTree; leftIndex = 13 rightIndex = 17midIndex = 15; size = 5
+*** Entering buildBinTree; leftIndex = 13 rightIndex = 14midIndex = 14; size = 2
+*** Entering buildBinTree; leftIndex = 13 rightIndex = 13midIndex = 13; size = 1
+*** Leaving buildBinTree(); newNode's data is 34
+*** Entering buildBinTree; leftIndex = 15 rightIndex = 14*** Leaving buildBinTree(); newNode's data is -1
+*** Entering buildBinTree; leftIndex = 16 rightIndex = 17midIndex = 17; size = 2
+*** Entering buildBinTree; leftIndex = 16 rightIndex = 16midIndex = 16; size = 1
+*** Leaving buildBinTree(); newNode's data is 40
+*** Entering buildBinTree; leftIndex = 18 rightIndex = 17*** Leaving buildBinTree(); newNode's data is -1
+*** Leaving buildBinTree(); newNode's data is -1
+*** Entering buildBinTree; leftIndex = 19 rightIndex = 23midIndex = 21; size = 5
+*** Entering buildBinTree; leftIndex = 19 rightIndex = 20midIndex = 20; size = 2
+*** Entering buildBinTree; leftIndex = 19 rightIndex = 19midIndex = 19; size = 1
+*** Leaving buildBinTree(); newNode's data is 46
+*** Entering buildBinTree; leftIndex = 21 rightIndex = 20*** Leaving buildBinTree(); newNode's data is -1
+*** Entering buildBinTree; leftIndex = 22 rightIndex = 23midIndex = 23; size = 2
+*** Entering buildBinTree; leftIndex = 22 rightIndex = 22midIndex = 22; size = 1
+*** Leaving buildBinTree(); newNode's data is 52
+*** Entering buildBinTree; leftIndex = 24 rightIndex = 23*** Leaving buildBinTree(); newNode's data is -1
+*** Leaving buildBinTree(); newNode's data is -1
+*** Leaving buildBinTree(); newNode's data is -1
+*** Leaving buildBinTree(); newNode's data is -1
+*** Entering buildBinTree; leftIndex = 25 rightIndex = 48midIndex = 37; size = 24
+*** Entering buildBinTree; leftIndex = 25 rightIndex = 36midIndex = 31; size = 12
+*** Entering buildBinTree; leftIndex = 25 rightIndex = 30midIndex = 28; size = 6
+*** Entering buildBinTree; leftIndex = 25 rightIndex = 27midIndex = 26; size = 3
+*** Entering buildBinTree; leftIndex = 25 rightIndex = 25midIndex = 25; size = 1
+*** Leaving buildBinTree(); newNode's data is 58
+*** Entering buildBinTree; leftIndex = 27 rightIndex = 27midIndex = 27; size = 1
+*** Leaving buildBinTree(); newNode's data is 63
+*** Leaving buildBinTree(); newNode's data is -1
+*** Entering buildBinTree; leftIndex = 29 rightIndex = 30midIndex = 30; size = 2
+*** Entering buildBinTree; leftIndex = 29 rightIndex = 29midIndex = 29; size = 1
+*** Leaving buildBinTree(); newNode's data is 67
+*** Entering buildBinTree; leftIndex = 31 rightIndex = 30*** Leaving buildBinTree(); newNode's data is -1
+*** Leaving buildBinTree(); newNode's data is -1
+*** Entering buildBinTree; leftIndex = 32 rightIndex = 36midIndex = 34; size = 5
+*** Entering buildBinTree; leftIndex = 32 rightIndex = 33midIndex = 33; size = 2
+*** Entering buildBinTree; leftIndex = 32 rightIndex = 32midIndex = 32; size = 1
+*** Leaving buildBinTree(); newNode's data is 72
+*** Entering buildBinTree; leftIndex = 34 rightIndex = 33*** Leaving buildBinTree(); newNode's data is -1
+*** Entering buildBinTree; leftIndex = 35 rightIndex = 36midIndex = 36; size = 2
+*** Entering buildBinTree; leftIndex = 35 rightIndex = 35midIndex = 35; size = 1
+*** Leaving buildBinTree(); newNode's data is 78
+*** Entering buildBinTree; leftIndex = 37 rightIndex = 36*** Leaving buildBinTree(); newNode's data is -1
+*** Leaving buildBinTree(); newNode's data is -1
+*** Leaving buildBinTree(); newNode's data is -1
+*** Entering buildBinTree; leftIndex = 38 rightIndex = 48midIndex = 43; size = 11
+*** Entering buildBinTree; leftIndex = 38 rightIndex = 42midIndex = 40; size = 5
+*** Entering buildBinTree; leftIndex = 38 rightIndex = 39midIndex = 39; size = 2
+*** Entering buildBinTree; leftIndex = 38 rightIndex = 38midIndex = 38; size = 1
+*** Leaving buildBinTree(); newNode's data is 83
+*** Entering buildBinTree; leftIndex = 40 rightIndex = 39*** Leaving buildBinTree(); newNode's data is -1
+*** Entering buildBinTree; leftIndex = 41 rightIndex = 42midIndex = 42; size = 2
+*** Entering buildBinTree; leftIndex = 41 rightIndex = 41midIndex = 41; size = 1
+*** Leaving buildBinTree(); newNode's data is 89
+*** Entering buildBinTree; leftIndex = 43 rightIndex = 42*** Leaving buildBinTree(); newNode's data is -1
+*** Leaving buildBinTree(); newNode's data is -1
+*** Entering buildBinTree; leftIndex = 44 rightIndex = 48midIndex = 46; size = 5
+*** Entering buildBinTree; leftIndex = 44 rightIndex = 45midIndex = 45; size = 2
+*** Entering buildBinTree; leftIndex = 44 rightIndex = 44midIndex = 44; size = 1
+*** Leaving buildBinTree(); newNode's data is 92
+*** Entering buildBinTree; leftIndex = 46 rightIndex = 45*** Leaving buildBinTree(); newNode's data is -1
+*** Entering buildBinTree; leftIndex = 47 rightIndex = 48midIndex = 48; size = 2
+*** Entering buildBinTree; leftIndex = 47 rightIndex = 47midIndex = 47; size = 1
+*** Leaving buildBinTree(); newNode's data is 95
+*** Entering buildBinTree; leftIndex = 49 rightIndex = 48*** Leaving buildBinTree(); newNode's data is -1
+*** Leaving buildBinTree(); newNode's data is -1
+*** Leaving buildBinTree(); newNode's data is -1
+*** Leaving buildBinTree(); newNode's data is -1
+*** Leaving buildBinTree(); newNode's data is -1
