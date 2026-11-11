@@ -149,5 +149,53 @@ public class AlanP_Project7_Main{
         Scanner inFile = null;
         PrintWriter outFile = null;
         PrintWriter logFile = null;
+
+        try{
+            inFile = new Scanner(new BufferedReader(new FileReader(args[0])));
+            System.out.println("inFile opened successfully.");
+        }catch(IOException e){
+            System.out.println("inFile cannot be opened.");
+            System.exit(1);
+        }
+        try{
+            outFile = new PrintWriter(new BufferedWriter(new FileWriter(args[1])));
+            System.out.println("outFile opened successfully opened.");
+        }catch(IOException e){
+            System.out.println("outFile cannot be opened successfully.");
+            System.exit(1);
+        }
+        try{
+            logFile = new PrintWriter(new BufferedWriter(new FileWriter(args[2])));
+            System.out.println("logFile opened successfully.");
+        }catch(IOException e){
+            System.out.println("logFile cannot be opened.");
+            System.exit(1);
+        }
+
+        heapSort sort = new heapSort();
+        int count = sort.countData(inFile, logFile);
+
+        sort.count = count;
+
+        inFile.close();
+        try{
+            inFile = new Scanner(new BufferedReader(new FileReader(args[0])));
+            System.out.println("inFile opened successfully.");
+        }catch(IOException e){
+            System.out.println("inFile cannot be opened.");
+            System.exit(1);
+        }
+
+        sort.buildHeap(inFile, sort.heapArr, logFile);
+        outFile.println("In main() printing heapArr after buildHeap");
+        sort.printHeap(sort.heapArr, logFile);
+
+        sort.dumpHeap(sort.heapArr, outFile, logFile);
+        outFile.println("In main() printing heapArr after dumpHeap");
+        sort.printHeap(sort.heapArr, outFile);
+
+        inFile.close();
+        outFile.close();
+        logFile.close();
     }
 }
