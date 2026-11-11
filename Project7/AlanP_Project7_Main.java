@@ -7,7 +7,7 @@ class heapSort{
 
     heapSort(){
         this.count = 0;
-        heapArr = null;
+        this.heapArr = null;
     }
 
     // Use from prev projects
@@ -24,8 +24,9 @@ class heapSort{
 
     void buildHeap(Scanner inFile, int[] heapArr, PrintWriter log){
         log.println("Entering buildHeap()");
-        int data = inFile.nextInt();
+
         while(inFile.hasNextInt()){
+            int data = inFile.nextInt();
             heapArr[0]++;
 
             if(heapArr[0] <= count){
@@ -35,9 +36,9 @@ class heapSort{
                 System.exit(-1);
             }
 
-            bubbleUp(heapArr);
+            bubbleUp(heapArr, log);
 
-            log.println("In buildUp(), printing heapArr, after bubbleUp(data)");
+            log.println("In buildHeap(), printing heapArr, after bubbleUp(" + data + ")");
             printHeap(heapArr, log);
         }
 
@@ -65,7 +66,7 @@ class heapSort{
         log.println("Entering bubbleUp()");
         int spot = heapArr[0];
         int father = spot/2;
-        while(spot > 1 && father >= 1 && heapArr[spot] > heapArr[father]){
+        while(spot > 1 && father >= 1 && heapArr[spot] < heapArr[father]){
             mySwap(heapArr, spot, father);
             spot = father;
             father = spot/2;
@@ -93,6 +94,8 @@ class heapSort{
             rightChild = spot*2 + 1;
             minChild = findMinChild(heapArr, leftChild, rightChild, log);
         }
+
+        log.println("Leaving bubbleDown()");
     }
 
     int findMinChild(int[] heapArr, int leftChild, int rightChild, PrintWriter log){
@@ -103,7 +106,7 @@ class heapSort{
             minIndex = leftChild;
         }else{
             if(rightChild > heapArr[0]){
-                minIndex = rightChild;
+                minIndex = leftChild;
             }else{
                 if(heapArr[leftChild] <= heapArr[rightChild]){
                     minIndex = leftChild;
@@ -120,6 +123,10 @@ class heapSort{
     // On my own
     void mySwap(int[] heapArr, int i, int j){
         // i=spot, j=father
+        int temp;
+        temp = heapArr[i];
+        heapArr[i] = heapArr[j];
+        heapArr[j] = temp;
     }
 
     void printHeap(int[] heapArr, PrintWriter oFile){
