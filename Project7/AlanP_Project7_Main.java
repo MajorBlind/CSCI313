@@ -140,5 +140,14 @@ class heapSort{
 }
 
 public class AlanP_Project7_Main{
-    public static void main(String[] args){}
+    public static void main(String[] args){
+        if(args.length != 3){
+            System.out.println("Program needs 3 arguments.");
+            System.exit(-1);
+        }
+
+        Scanner inFile = null;
+        PrintWriter outFile = null;
+        PrintWriter logFile = null;
+    }
 }
