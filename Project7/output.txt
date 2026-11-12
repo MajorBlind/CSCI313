@@ -1,0 +1,48 @@
+In main() printing heapArr after buildHeap
+Index	heapArr[Index]
+------------------------------
+0	20
+1	3
+2	5
+3	4
+4	14
+5	12
+6	7
+7	8
+8	18
+9	16
+10	29
+11	17
+12	30
+13	10
+14	11
+15	9
+16	99
+17	32
+18	22
+19	36
+20	61
+3
+4
+5
+7
+8
+9
+10
+11
+12
+14
+16
+17
+18
+22
+29
+30
+32
+36
+61
+99
+In main() printing heapArr after dumpHeap
+Index	heapArr[Index]
+------------------------------
+0	0

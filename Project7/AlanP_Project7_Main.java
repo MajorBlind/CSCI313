@@ -24,9 +24,10 @@ class heapSort{
 
     void buildHeap(Scanner inFile, int[] heapArr, PrintWriter log){
         log.println("Entering buildHeap()");
+        int data;
 
         while(inFile.hasNextInt()){
-            int data = inFile.nextInt();
+            data = inFile.nextInt();
             heapArr[0]++;
 
             if(heapArr[0] <= count){
@@ -87,12 +88,11 @@ class heapSort{
         while(minChild <= heapArr[0] && spot >= 1 && heapArr[minChild] < heapArr[spot]){
             mySwap(heapArr, minChild, spot);
             spot = minChild;
-            log.println("In bubbleDown(), print heapArr down one step");
-            printHeap(heapArr, log);
-
             leftChild = spot*2;
             rightChild = spot*2 + 1;
             minChild = findMinChild(heapArr, leftChild, rightChild, log);
+            log.println("In bubbleDown(), print heapArr down one step");
+            printHeap(heapArr, log);
         }
 
         log.println("Leaving bubbleDown()");
@@ -174,8 +174,7 @@ public class AlanP_Project7_Main{
 
         heapSort sort = new heapSort();
         int count = sort.countData(inFile, logFile);
-
-        sort.count = count;
+        sort.heapArr = new int[count + 1];
 
         inFile.close();
         try{
@@ -188,7 +187,7 @@ public class AlanP_Project7_Main{
 
         sort.buildHeap(inFile, sort.heapArr, logFile);
         outFile.println("In main() printing heapArr after buildHeap");
-        sort.printHeap(sort.heapArr, logFile);
+        sort.printHeap(sort.heapArr, outFile);
 
         sort.dumpHeap(sort.heapArr, outFile, logFile);
         outFile.println("In main() printing heapArr after dumpHeap");

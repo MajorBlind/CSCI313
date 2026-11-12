@@ -1,0 +1,1678 @@
+Entering countData()
+Exiting countData()
+Entering buildHeap()
+Entering bubbleUp()
+Leaving bubbleUp()
+In buildHeap(), printing heapArr, after bubbleUp(99)
+Index	heapArr[Index]
+------------------------------
+0	1
+1	99
+Entering bubbleUp()
+In bubbleUp(), printing heapArr one step up
+Index	heapArr[Index]
+------------------------------
+0	2
+1	30
+2	99
+Leaving bubbleUp()
+In buildHeap(), printing heapArr, after bubbleUp(30)
+Index	heapArr[Index]
+------------------------------
+0	2
+1	30
+2	99
+Entering bubbleUp()
+In bubbleUp(), printing heapArr one step up
+Index	heapArr[Index]
+------------------------------
+0	3
+1	11
+2	99
+3	30
+Leaving bubbleUp()
+In buildHeap(), printing heapArr, after bubbleUp(11)
+Index	heapArr[Index]
+------------------------------
+0	3
+1	11
+2	99
+3	30
+Entering bubbleUp()
+In bubbleUp(), printing heapArr one step up
+Index	heapArr[Index]
+------------------------------
+0	4
+1	11
+2	22
+3	30
+4	99
+Leaving bubbleUp()
+In buildHeap(), printing heapArr, after bubbleUp(22)
+Index	heapArr[Index]
+------------------------------
+0	4
+1	11
+2	22
+3	30
+4	99
+Entering bubbleUp()
+Leaving bubbleUp()
+In buildHeap(), printing heapArr, after bubbleUp(61)
+Index	heapArr[Index]
+------------------------------
+0	5
+1	11
+2	22
+3	30
+4	99
+5	61
+Entering bubbleUp()
+In bubbleUp(), printing heapArr one step up
+Index	heapArr[Index]
+------------------------------
+0	6
+1	11
+2	22
+3	7
+4	99
+5	61
+6	30
+In bubbleUp(), printing heapArr one step up
+Index	heapArr[Index]
+------------------------------
+0	6
+1	7
+2	22
+3	11
+4	99
+5	61
+6	30
+Leaving bubbleUp()
+In buildHeap(), printing heapArr, after bubbleUp(7)
+Index	heapArr[Index]
+------------------------------
+0	6
+1	7
+2	22
+3	11
+4	99
+5	61
+6	30
+Entering bubbleUp()
+In bubbleUp(), printing heapArr one step up
+Index	heapArr[Index]
+------------------------------
+0	7
+1	7
+2	22
+3	3
+4	99
+5	61
+6	30
+7	11
+In bubbleUp(), printing heapArr one step up
+Index	heapArr[Index]
+------------------------------
+0	7
+1	3
+2	22
+3	7
+4	99
+5	61
+6	30
+7	11
+Leaving bubbleUp()
+In buildHeap(), printing heapArr, after bubbleUp(3)
+Index	heapArr[Index]
+------------------------------
+0	7
+1	3
+2	22
+3	7
+4	99
+5	61
+6	30
+7	11
+Entering bubbleUp()
+In bubbleUp(), printing heapArr one step up
+Index	heapArr[Index]
+------------------------------
+0	8
+1	3
+2	22
+3	7
+4	5
+5	61
+6	30
+7	11
+8	99
+In bubbleUp(), printing heapArr one step up
+Index	heapArr[Index]
+------------------------------
+0	8
+1	3
+2	5
+3	7
+4	22
+5	61
+6	30
+7	11
+8	99
+Leaving bubbleUp()
+In buildHeap(), printing heapArr, after bubbleUp(5)
+Index	heapArr[Index]
+------------------------------
+0	8
+1	3
+2	5
+3	7
+4	22
+5	61
+6	30
+7	11
+8	99
+Entering bubbleUp()
+In bubbleUp(), printing heapArr one step up
+Index	heapArr[Index]
+------------------------------
+0	9
+1	3
+2	5
+3	7
+4	18
+5	61
+6	30
+7	11
+8	99
+9	22
+Leaving bubbleUp()
+In buildHeap(), printing heapArr, after bubbleUp(18)
+Index	heapArr[Index]
+------------------------------
+0	9
+1	3
+2	5
+3	7
+4	18
+5	61
+6	30
+7	11
+8	99
+9	22
+Entering bubbleUp()
+In bubbleUp(), printing heapArr one step up
+Index	heapArr[Index]
+------------------------------
+0	10
+1	3
+2	5
+3	7
+4	18
+5	12
+6	30
+7	11
+8	99
+9	22
+10	61
+Leaving bubbleUp()
+In buildHeap(), printing heapArr, after bubbleUp(12)
+Index	heapArr[Index]
+------------------------------
+0	10
+1	3
+2	5
+3	7
+4	18
+5	12
+6	30
+7	11
+8	99
+9	22
+10	61
+Entering bubbleUp()
+Leaving bubbleUp()
+In buildHeap(), printing heapArr, after bubbleUp(17)
+Index	heapArr[Index]
+------------------------------
+0	11
+1	3
+2	5
+3	7
+4	18
+5	12
+6	30
+7	11
+8	99
+9	22
+10	61
+11	17
+Entering bubbleUp()
+In bubbleUp(), printing heapArr one step up
+Index	heapArr[Index]
+------------------------------
+0	12
+1	3
+2	5
+3	7
+4	18
+5	12
+6	4
+7	11
+8	99
+9	22
+10	61
+11	17
+12	30
+In bubbleUp(), printing heapArr one step up
+Index	heapArr[Index]
+------------------------------
+0	12
+1	3
+2	5
+3	4
+4	18
+5	12
+6	7
+7	11
+8	99
+9	22
+10	61
+11	17
+12	30
+Leaving bubbleUp()
+In buildHeap(), printing heapArr, after bubbleUp(4)
+Index	heapArr[Index]
+------------------------------
+0	12
+1	3
+2	5
+3	4
+4	18
+5	12
+6	7
+7	11
+8	99
+9	22
+10	61
+11	17
+12	30
+Entering bubbleUp()
+Leaving bubbleUp()
+In buildHeap(), printing heapArr, after bubbleUp(10)
+Index	heapArr[Index]
+------------------------------
+0	13
+1	3
+2	5
+3	4
+4	18
+5	12
+6	7
+7	11
+8	99
+9	22
+10	61
+11	17
+12	30
+13	10
+Entering bubbleUp()
+In bubbleUp(), printing heapArr one step up
+Index	heapArr[Index]
+------------------------------
+0	14
+1	3
+2	5
+3	4
+4	18
+5	12
+6	7
+7	8
+8	99
+9	22
+10	61
+11	17
+12	30
+13	10
+14	11
+Leaving bubbleUp()
+In buildHeap(), printing heapArr, after bubbleUp(8)
+Index	heapArr[Index]
+------------------------------
+0	14
+1	3
+2	5
+3	4
+4	18
+5	12
+6	7
+7	8
+8	99
+9	22
+10	61
+11	17
+12	30
+13	10
+14	11
+Entering bubbleUp()
+Leaving bubbleUp()
+In buildHeap(), printing heapArr, after bubbleUp(9)
+Index	heapArr[Index]
+------------------------------
+0	15
+1	3
+2	5
+3	4
+4	18
+5	12
+6	7
+7	8
+8	99
+9	22
+10	61
+11	17
+12	30
+13	10
+14	11
+15	9
+Entering bubbleUp()
+In bubbleUp(), printing heapArr one step up
+Index	heapArr[Index]
+------------------------------
+0	16
+1	3
+2	5
+3	4
+4	18
+5	12
+6	7
+7	8
+8	32
+9	22
+10	61
+11	17
+12	30
+13	10
+14	11
+15	9
+16	99
+Leaving bubbleUp()
+In buildHeap(), printing heapArr, after bubbleUp(32)
+Index	heapArr[Index]
+------------------------------
+0	16
+1	3
+2	5
+3	4
+4	18
+5	12
+6	7
+7	8
+8	32
+9	22
+10	61
+11	17
+12	30
+13	10
+14	11
+15	9
+16	99
+Entering bubbleUp()
+In bubbleUp(), printing heapArr one step up
+Index	heapArr[Index]
+------------------------------
+0	17
+1	3
+2	5
+3	4
+4	18
+5	12
+6	7
+7	8
+8	14
+9	22
+10	61
+11	17
+12	30
+13	10
+14	11
+15	9
+16	99
+17	32
+In bubbleUp(), printing heapArr one step up
+Index	heapArr[Index]
+------------------------------
+0	17
+1	3
+2	5
+3	4
+4	14
+5	12
+6	7
+7	8
+8	18
+9	22
+10	61
+11	17
+12	30
+13	10
+14	11
+15	9
+16	99
+17	32
+Leaving bubbleUp()
+In buildHeap(), printing heapArr, after bubbleUp(14)
+Index	heapArr[Index]
+------------------------------
+0	17
+1	3
+2	5
+3	4
+4	14
+5	12
+6	7
+7	8
+8	18
+9	22
+10	61
+11	17
+12	30
+13	10
+14	11
+15	9
+16	99
+17	32
+Entering bubbleUp()
+In bubbleUp(), printing heapArr one step up
+Index	heapArr[Index]
+------------------------------
+0	18
+1	3
+2	5
+3	4
+4	14
+5	12
+6	7
+7	8
+8	18
+9	16
+10	61
+11	17
+12	30
+13	10
+14	11
+15	9
+16	99
+17	32
+18	22
+Leaving bubbleUp()
+In buildHeap(), printing heapArr, after bubbleUp(16)
+Index	heapArr[Index]
+------------------------------
+0	18
+1	3
+2	5
+3	4
+4	14
+5	12
+6	7
+7	8
+8	18
+9	16
+10	61
+11	17
+12	30
+13	10
+14	11
+15	9
+16	99
+17	32
+18	22
+Entering bubbleUp()
+Leaving bubbleUp()
+In buildHeap(), printing heapArr, after bubbleUp(36)
+Index	heapArr[Index]
+------------------------------
+0	19
+1	3
+2	5
+3	4
+4	14
+5	12
+6	7
+7	8
+8	18
+9	16
+10	61
+11	17
+12	30
+13	10
+14	11
+15	9
+16	99
+17	32
+18	22
+19	36
+Entering bubbleUp()
+In bubbleUp(), printing heapArr one step up
+Index	heapArr[Index]
+------------------------------
+0	20
+1	3
+2	5
+3	4
+4	14
+5	12
+6	7
+7	8
+8	18
+9	16
+10	29
+11	17
+12	30
+13	10
+14	11
+15	9
+16	99
+17	32
+18	22
+19	36
+20	61
+Leaving bubbleUp()
+In buildHeap(), printing heapArr, after bubbleUp(29)
+Index	heapArr[Index]
+------------------------------
+0	20
+1	3
+2	5
+3	4
+4	14
+5	12
+6	7
+7	8
+8	18
+9	16
+10	29
+11	17
+12	30
+13	10
+14	11
+15	9
+16	99
+17	32
+18	22
+19	36
+20	61
+Leaving buildHeap()
+Entering dumpHeap()
+Entering bubbleDown()
+Entering findMinChild()
+Leaving findMinChild(), returning minIndex: 3
+Entering findMinChild()
+Leaving findMinChild(), returning minIndex: 6
+In bubbleDown(), print heapArr down one step
+Index	heapArr[Index]
+------------------------------
+0	19
+1	4
+2	5
+3	61
+4	14
+5	12
+6	7
+7	8
+8	18
+9	16
+10	29
+11	17
+12	30
+13	10
+14	11
+15	9
+16	99
+17	32
+18	22
+19	36
+Entering findMinChild()
+Leaving findMinChild(), returning minIndex: 13
+In bubbleDown(), print heapArr down one step
+Index	heapArr[Index]
+------------------------------
+0	19
+1	4
+2	5
+3	7
+4	14
+5	12
+6	61
+7	8
+8	18
+9	16
+10	29
+11	17
+12	30
+13	10
+14	11
+15	9
+16	99
+17	32
+18	22
+19	36
+Entering findMinChild()
+Leaving findMinChild(), returning minIndex: 26
+In bubbleDown(), print heapArr down one step
+Index	heapArr[Index]
+------------------------------
+0	19
+1	4
+2	5
+3	7
+4	14
+5	12
+6	10
+7	8
+8	18
+9	16
+10	29
+11	17
+12	30
+13	61
+14	11
+15	9
+16	99
+17	32
+18	22
+19	36
+Leaving bubbleDown()
+In dumpHeap(), printing heapArr, after bubbleDown()
+Index	heapArr[Index]
+------------------------------
+0	19
+1	4
+2	5
+3	7
+4	14
+5	12
+6	10
+7	8
+8	18
+9	16
+10	29
+11	17
+12	30
+13	61
+14	11
+15	9
+16	99
+17	32
+18	22
+19	36
+Entering bubbleDown()
+Entering findMinChild()
+Leaving findMinChild(), returning minIndex: 2
+Entering findMinChild()
+Leaving findMinChild(), returning minIndex: 5
+In bubbleDown(), print heapArr down one step
+Index	heapArr[Index]
+------------------------------
+0	18
+1	5
+2	36
+3	7
+4	14
+5	12
+6	10
+7	8
+8	18
+9	16
+10	29
+11	17
+12	30
+13	61
+14	11
+15	9
+16	99
+17	32
+18	22
+Entering findMinChild()
+Leaving findMinChild(), returning minIndex: 11
+In bubbleDown(), print heapArr down one step
+Index	heapArr[Index]
+------------------------------
+0	18
+1	5
+2	12
+3	7
+4	14
+5	36
+6	10
+7	8
+8	18
+9	16
+10	29
+11	17
+12	30
+13	61
+14	11
+15	9
+16	99
+17	32
+18	22
+Entering findMinChild()
+Leaving findMinChild(), returning minIndex: 22
+In bubbleDown(), print heapArr down one step
+Index	heapArr[Index]
+------------------------------
+0	18
+1	5
+2	12
+3	7
+4	14
+5	17
+6	10
+7	8
+8	18
+9	16
+10	29
+11	36
+12	30
+13	61
+14	11
+15	9
+16	99
+17	32
+18	22
+Leaving bubbleDown()
+In dumpHeap(), printing heapArr, after bubbleDown()
+Index	heapArr[Index]
+------------------------------
+0	18
+1	5
+2	12
+3	7
+4	14
+5	17
+6	10
+7	8
+8	18
+9	16
+10	29
+11	36
+12	30
+13	61
+14	11
+15	9
+16	99
+17	32
+18	22
+Entering bubbleDown()
+Entering findMinChild()
+Leaving findMinChild(), returning minIndex: 3
+Entering findMinChild()
+Leaving findMinChild(), returning minIndex: 7
+In bubbleDown(), print heapArr down one step
+Index	heapArr[Index]
+------------------------------
+0	17
+1	7
+2	12
+3	22
+4	14
+5	17
+6	10
+7	8
+8	18
+9	16
+10	29
+11	36
+12	30
+13	61
+14	11
+15	9
+16	99
+17	32
+Entering findMinChild()
+Leaving findMinChild(), returning minIndex: 15
+In bubbleDown(), print heapArr down one step
+Index	heapArr[Index]
+------------------------------
+0	17
+1	7
+2	12
+3	8
+4	14
+5	17
+6	10
+7	22
+8	18
+9	16
+10	29
+11	36
+12	30
+13	61
+14	11
+15	9
+16	99
+17	32
+Entering findMinChild()
+Leaving findMinChild(), returning minIndex: 30
+In bubbleDown(), print heapArr down one step
+Index	heapArr[Index]
+------------------------------
+0	17
+1	7
+2	12
+3	8
+4	14
+5	17
+6	10
+7	9
+8	18
+9	16
+10	29
+11	36
+12	30
+13	61
+14	11
+15	22
+16	99
+17	32
+Leaving bubbleDown()
+In dumpHeap(), printing heapArr, after bubbleDown()
+Index	heapArr[Index]
+------------------------------
+0	17
+1	7
+2	12
+3	8
+4	14
+5	17
+6	10
+7	9
+8	18
+9	16
+10	29
+11	36
+12	30
+13	61
+14	11
+15	22
+16	99
+17	32
+Entering bubbleDown()
+Entering findMinChild()
+Leaving findMinChild(), returning minIndex: 3
+Entering findMinChild()
+Leaving findMinChild(), returning minIndex: 7
+In bubbleDown(), print heapArr down one step
+Index	heapArr[Index]
+------------------------------
+0	16
+1	8
+2	12
+3	32
+4	14
+5	17
+6	10
+7	9
+8	18
+9	16
+10	29
+11	36
+12	30
+13	61
+14	11
+15	22
+16	99
+Entering findMinChild()
+Leaving findMinChild(), returning minIndex: 14
+In bubbleDown(), print heapArr down one step
+Index	heapArr[Index]
+------------------------------
+0	16
+1	8
+2	12
+3	9
+4	14
+5	17
+6	10
+7	32
+8	18
+9	16
+10	29
+11	36
+12	30
+13	61
+14	11
+15	22
+16	99
+Entering findMinChild()
+Leaving findMinChild(), returning minIndex: 28
+In bubbleDown(), print heapArr down one step
+Index	heapArr[Index]
+------------------------------
+0	16
+1	8
+2	12
+3	9
+4	14
+5	17
+6	10
+7	11
+8	18
+9	16
+10	29
+11	36
+12	30
+13	61
+14	32
+15	22
+16	99
+Leaving bubbleDown()
+In dumpHeap(), printing heapArr, after bubbleDown()
+Index	heapArr[Index]
+------------------------------
+0	16
+1	8
+2	12
+3	9
+4	14
+5	17
+6	10
+7	11
+8	18
+9	16
+10	29
+11	36
+12	30
+13	61
+14	32
+15	22
+16	99
+Entering bubbleDown()
+Entering findMinChild()
+Leaving findMinChild(), returning minIndex: 3
+Entering findMinChild()
+Leaving findMinChild(), returning minIndex: 6
+In bubbleDown(), print heapArr down one step
+Index	heapArr[Index]
+------------------------------
+0	15
+1	9
+2	12
+3	99
+4	14
+5	17
+6	10
+7	11
+8	18
+9	16
+10	29
+11	36
+12	30
+13	61
+14	32
+15	22
+Entering findMinChild()
+Leaving findMinChild(), returning minIndex: 12
+In bubbleDown(), print heapArr down one step
+Index	heapArr[Index]
+------------------------------
+0	15
+1	9
+2	12
+3	10
+4	14
+5	17
+6	99
+7	11
+8	18
+9	16
+10	29
+11	36
+12	30
+13	61
+14	32
+15	22
+Entering findMinChild()
+Leaving findMinChild(), returning minIndex: 24
+In bubbleDown(), print heapArr down one step
+Index	heapArr[Index]
+------------------------------
+0	15
+1	9
+2	12
+3	10
+4	14
+5	17
+6	30
+7	11
+8	18
+9	16
+10	29
+11	36
+12	99
+13	61
+14	32
+15	22
+Leaving bubbleDown()
+In dumpHeap(), printing heapArr, after bubbleDown()
+Index	heapArr[Index]
+------------------------------
+0	15
+1	9
+2	12
+3	10
+4	14
+5	17
+6	30
+7	11
+8	18
+9	16
+10	29
+11	36
+12	99
+13	61
+14	32
+15	22
+Entering bubbleDown()
+Entering findMinChild()
+Leaving findMinChild(), returning minIndex: 3
+Entering findMinChild()
+Leaving findMinChild(), returning minIndex: 7
+In bubbleDown(), print heapArr down one step
+Index	heapArr[Index]
+------------------------------
+0	14
+1	10
+2	12
+3	22
+4	14
+5	17
+6	30
+7	11
+8	18
+9	16
+10	29
+11	36
+12	99
+13	61
+14	32
+Entering findMinChild()
+Leaving findMinChild(), returning minIndex: 14
+In bubbleDown(), print heapArr down one step
+Index	heapArr[Index]
+------------------------------
+0	14
+1	10
+2	12
+3	11
+4	14
+5	17
+6	30
+7	22
+8	18
+9	16
+10	29
+11	36
+12	99
+13	61
+14	32
+Leaving bubbleDown()
+In dumpHeap(), printing heapArr, after bubbleDown()
+Index	heapArr[Index]
+------------------------------
+0	14
+1	10
+2	12
+3	11
+4	14
+5	17
+6	30
+7	22
+8	18
+9	16
+10	29
+11	36
+12	99
+13	61
+14	32
+Entering bubbleDown()
+Entering findMinChild()
+Leaving findMinChild(), returning minIndex: 3
+Entering findMinChild()
+Leaving findMinChild(), returning minIndex: 7
+In bubbleDown(), print heapArr down one step
+Index	heapArr[Index]
+------------------------------
+0	13
+1	11
+2	12
+3	32
+4	14
+5	17
+6	30
+7	22
+8	18
+9	16
+10	29
+11	36
+12	99
+13	61
+Entering findMinChild()
+Leaving findMinChild(), returning minIndex: 14
+In bubbleDown(), print heapArr down one step
+Index	heapArr[Index]
+------------------------------
+0	13
+1	11
+2	12
+3	22
+4	14
+5	17
+6	30
+7	32
+8	18
+9	16
+10	29
+11	36
+12	99
+13	61
+Leaving bubbleDown()
+In dumpHeap(), printing heapArr, after bubbleDown()
+Index	heapArr[Index]
+------------------------------
+0	13
+1	11
+2	12
+3	22
+4	14
+5	17
+6	30
+7	32
+8	18
+9	16
+10	29
+11	36
+12	99
+13	61
+Entering bubbleDown()
+Entering findMinChild()
+Leaving findMinChild(), returning minIndex: 2
+Entering findMinChild()
+Leaving findMinChild(), returning minIndex: 4
+In bubbleDown(), print heapArr down one step
+Index	heapArr[Index]
+------------------------------
+0	12
+1	12
+2	61
+3	22
+4	14
+5	17
+6	30
+7	32
+8	18
+9	16
+10	29
+11	36
+12	99
+Entering findMinChild()
+Leaving findMinChild(), returning minIndex: 9
+In bubbleDown(), print heapArr down one step
+Index	heapArr[Index]
+------------------------------
+0	12
+1	12
+2	14
+3	22
+4	61
+5	17
+6	30
+7	32
+8	18
+9	16
+10	29
+11	36
+12	99
+Entering findMinChild()
+Leaving findMinChild(), returning minIndex: 18
+In bubbleDown(), print heapArr down one step
+Index	heapArr[Index]
+------------------------------
+0	12
+1	12
+2	14
+3	22
+4	16
+5	17
+6	30
+7	32
+8	18
+9	61
+10	29
+11	36
+12	99
+Leaving bubbleDown()
+In dumpHeap(), printing heapArr, after bubbleDown()
+Index	heapArr[Index]
+------------------------------
+0	12
+1	12
+2	14
+3	22
+4	16
+5	17
+6	30
+7	32
+8	18
+9	61
+10	29
+11	36
+12	99
+Entering bubbleDown()
+Entering findMinChild()
+Leaving findMinChild(), returning minIndex: 2
+Entering findMinChild()
+Leaving findMinChild(), returning minIndex: 4
+In bubbleDown(), print heapArr down one step
+Index	heapArr[Index]
+------------------------------
+0	11
+1	14
+2	99
+3	22
+4	16
+5	17
+6	30
+7	32
+8	18
+9	61
+10	29
+11	36
+Entering findMinChild()
+Leaving findMinChild(), returning minIndex: 8
+In bubbleDown(), print heapArr down one step
+Index	heapArr[Index]
+------------------------------
+0	11
+1	14
+2	16
+3	22
+4	99
+5	17
+6	30
+7	32
+8	18
+9	61
+10	29
+11	36
+Entering findMinChild()
+Leaving findMinChild(), returning minIndex: 16
+In bubbleDown(), print heapArr down one step
+Index	heapArr[Index]
+------------------------------
+0	11
+1	14
+2	16
+3	22
+4	18
+5	17
+6	30
+7	32
+8	99
+9	61
+10	29
+11	36
+Leaving bubbleDown()
+In dumpHeap(), printing heapArr, after bubbleDown()
+Index	heapArr[Index]
+------------------------------
+0	11
+1	14
+2	16
+3	22
+4	18
+5	17
+6	30
+7	32
+8	99
+9	61
+10	29
+11	36
+Entering bubbleDown()
+Entering findMinChild()
+Leaving findMinChild(), returning minIndex: 2
+Entering findMinChild()
+Leaving findMinChild(), returning minIndex: 5
+In bubbleDown(), print heapArr down one step
+Index	heapArr[Index]
+------------------------------
+0	10
+1	16
+2	36
+3	22
+4	18
+5	17
+6	30
+7	32
+8	99
+9	61
+10	29
+Entering findMinChild()
+Leaving findMinChild(), returning minIndex: 10
+In bubbleDown(), print heapArr down one step
+Index	heapArr[Index]
+------------------------------
+0	10
+1	16
+2	17
+3	22
+4	18
+5	36
+6	30
+7	32
+8	99
+9	61
+10	29
+Entering findMinChild()
+Leaving findMinChild(), returning minIndex: 20
+In bubbleDown(), print heapArr down one step
+Index	heapArr[Index]
+------------------------------
+0	10
+1	16
+2	17
+3	22
+4	18
+5	29
+6	30
+7	32
+8	99
+9	61
+10	36
+Leaving bubbleDown()
+In dumpHeap(), printing heapArr, after bubbleDown()
+Index	heapArr[Index]
+------------------------------
+0	10
+1	16
+2	17
+3	22
+4	18
+5	29
+6	30
+7	32
+8	99
+9	61
+10	36
+Entering bubbleDown()
+Entering findMinChild()
+Leaving findMinChild(), returning minIndex: 2
+Entering findMinChild()
+Leaving findMinChild(), returning minIndex: 4
+In bubbleDown(), print heapArr down one step
+Index	heapArr[Index]
+------------------------------
+0	9
+1	17
+2	36
+3	22
+4	18
+5	29
+6	30
+7	32
+8	99
+9	61
+Entering findMinChild()
+Leaving findMinChild(), returning minIndex: 9
+In bubbleDown(), print heapArr down one step
+Index	heapArr[Index]
+------------------------------
+0	9
+1	17
+2	18
+3	22
+4	36
+5	29
+6	30
+7	32
+8	99
+9	61
+Leaving bubbleDown()
+In dumpHeap(), printing heapArr, after bubbleDown()
+Index	heapArr[Index]
+------------------------------
+0	9
+1	17
+2	18
+3	22
+4	36
+5	29
+6	30
+7	32
+8	99
+9	61
+Entering bubbleDown()
+Entering findMinChild()
+Leaving findMinChild(), returning minIndex: 2
+Entering findMinChild()
+Leaving findMinChild(), returning minIndex: 5
+In bubbleDown(), print heapArr down one step
+Index	heapArr[Index]
+------------------------------
+0	8
+1	18
+2	61
+3	22
+4	36
+5	29
+6	30
+7	32
+8	99
+Entering findMinChild()
+Leaving findMinChild(), returning minIndex: 10
+In bubbleDown(), print heapArr down one step
+Index	heapArr[Index]
+------------------------------
+0	8
+1	18
+2	29
+3	22
+4	36
+5	61
+6	30
+7	32
+8	99
+Leaving bubbleDown()
+In dumpHeap(), printing heapArr, after bubbleDown()
+Index	heapArr[Index]
+------------------------------
+0	8
+1	18
+2	29
+3	22
+4	36
+5	61
+6	30
+7	32
+8	99
+Entering bubbleDown()
+Entering findMinChild()
+Leaving findMinChild(), returning minIndex: 3
+Entering findMinChild()
+Leaving findMinChild(), returning minIndex: 6
+In bubbleDown(), print heapArr down one step
+Index	heapArr[Index]
+------------------------------
+0	7
+1	22
+2	29
+3	99
+4	36
+5	61
+6	30
+7	32
+Entering findMinChild()
+Leaving findMinChild(), returning minIndex: 12
+In bubbleDown(), print heapArr down one step
+Index	heapArr[Index]
+------------------------------
+0	7
+1	22
+2	29
+3	30
+4	36
+5	61
+6	99
+7	32
+Leaving bubbleDown()
+In dumpHeap(), printing heapArr, after bubbleDown()
+Index	heapArr[Index]
+------------------------------
+0	7
+1	22
+2	29
+3	30
+4	36
+5	61
+6	99
+7	32
+Entering bubbleDown()
+Entering findMinChild()
+Leaving findMinChild(), returning minIndex: 2
+Entering findMinChild()
+Leaving findMinChild(), returning minIndex: 4
+In bubbleDown(), print heapArr down one step
+Index	heapArr[Index]
+------------------------------
+0	6
+1	29
+2	32
+3	30
+4	36
+5	61
+6	99
+Leaving bubbleDown()
+In dumpHeap(), printing heapArr, after bubbleDown()
+Index	heapArr[Index]
+------------------------------
+0	6
+1	29
+2	32
+3	30
+4	36
+5	61
+6	99
+Entering bubbleDown()
+Entering findMinChild()
+Leaving findMinChild(), returning minIndex: 3
+Entering findMinChild()
+Leaving findMinChild(), returning minIndex: 6
+In bubbleDown(), print heapArr down one step
+Index	heapArr[Index]
+------------------------------
+0	5
+1	30
+2	32
+3	99
+4	36
+5	61
+Leaving bubbleDown()
+In dumpHeap(), printing heapArr, after bubbleDown()
+Index	heapArr[Index]
+------------------------------
+0	5
+1	30
+2	32
+3	99
+4	36
+5	61
+Entering bubbleDown()
+Entering findMinChild()
+Leaving findMinChild(), returning minIndex: 2
+Entering findMinChild()
+Leaving findMinChild(), returning minIndex: 4
+In bubbleDown(), print heapArr down one step
+Index	heapArr[Index]
+------------------------------
+0	4
+1	32
+2	61
+3	99
+4	36
+Entering findMinChild()
+Leaving findMinChild(), returning minIndex: 8
+In bubbleDown(), print heapArr down one step
+Index	heapArr[Index]
+------------------------------
+0	4
+1	32
+2	36
+3	99
+4	61
+Leaving bubbleDown()
+In dumpHeap(), printing heapArr, after bubbleDown()
+Index	heapArr[Index]
+------------------------------
+0	4
+1	32
+2	36
+3	99
+4	61
+Entering bubbleDown()
+Entering findMinChild()
+Leaving findMinChild(), returning minIndex: 2
+Entering findMinChild()
+Leaving findMinChild(), returning minIndex: 4
+In bubbleDown(), print heapArr down one step
+Index	heapArr[Index]
+------------------------------
+0	3
+1	36
+2	61
+3	99
+Leaving bubbleDown()
+In dumpHeap(), printing heapArr, after bubbleDown()
+Index	heapArr[Index]
+------------------------------
+0	3
+1	36
+2	61
+3	99
+Entering bubbleDown()
+Entering findMinChild()
+Leaving findMinChild(), returning minIndex: 2
+Entering findMinChild()
+Leaving findMinChild(), returning minIndex: 4
+In bubbleDown(), print heapArr down one step
+Index	heapArr[Index]
+------------------------------
+0	2
+1	61
+2	99
+Leaving bubbleDown()
+In dumpHeap(), printing heapArr, after bubbleDown()
+Index	heapArr[Index]
+------------------------------
+0	2
+1	61
+2	99
+Entering bubbleDown()
+Entering findMinChild()
+Leaving findMinChild(), returning minIndex: 2
+Leaving bubbleDown()
+In dumpHeap(), printing heapArr, after bubbleDown()
+Index	heapArr[Index]
+------------------------------
+0	1
+1	99
+Entering bubbleDown()
+Entering findMinChild()
+Leaving findMinChild(), returning minIndex: 2
+Leaving bubbleDown()
+In dumpHeap(), printing heapArr, after bubbleDown()
+Index	heapArr[Index]
+------------------------------
+0	0
+Leaving dumpHeap()
